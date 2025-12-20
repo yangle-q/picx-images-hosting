@@ -1,11 +1,11 @@
 {
   "headers": [
     {
-      "source": "(.*).(jpg|jpeg|gif|png|svg|webp|js|css|woff2)",
+      "source": "/(.*)\\.(jpg|jpeg|png|gif|ico|svg|webp|css|js|woff2)$",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=86400"
+          "value": "public, max-age=2592000, s-maxage=2592000"
         }
       ]
     }
